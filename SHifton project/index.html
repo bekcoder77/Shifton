@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="uz">
+<!-- Bismillah -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHifton</title>
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- tailwind link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="containerDiv">
+    <header>
+      <nav class="flex justify-between items-center px-24 max-[447px]:px-4 max-md:px-5 py-2 bg-black ">
+        <div class="logo">
+          <img src="./images/logo.png" class="max-[447px]:w-[200px]" alt="" />
+        </div>
+        <div class="btn flex items-center gap-10  max-[447px]:gap-20">
+          <div
+            class="links cursor-pointer list-none flex justify-center gap-6 text-[18px] capitalize text-white max-[447px]:hidden max-[1250px]:hidden">
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              главная
+            </li>
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              тарифы
+            </li>
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              возможности
+            </li>
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              блог
+            </li>
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              чаво
+            </li>
+            <li class="hover:text-cyan-300 transition-all delay-[0.1s] ease-in-out">
+              вход
+            </li>
+          </div>
+          <button id="login"
+            class="btn text-[18px] py-[5px] px-7 text-white outline-none border-2 bg-[#29AAE3] max-[447px]:hidden border-none rounded-[30px] font-semibold hover:text-yellow-300 transition-all delay-[0.1s] ease-in-out max-md:hidden">
+            Регистрация
+          </button>
+          <select name="" id="" class="max-[447px]:mr-14 max-md:mr-16">
+            <option value="">Ru</option>
+            <option value="">Uz</option>
+            <option value="">En</option>
+          </select>
+          <div class="menu-btn hidden max-[447px]:flex max-[1250px]:flex"></div>
+        </div>
+      </nav>
+      <div class="header px-24 py-28 max-[447px]:px-2 max-[447px]:text-center max-[660px]:py-10">
+        <h1
+          class="text-white text-4xl max-[447px]:text-[25px] max-[447px]: w-[50%] max-[447px]:w-[100%] max-md:text-3xl max-[660px]:w-[100%]">
+          Автоматизированное составление рабочих расписаний онлайн
+        </h1>
+        <p class="text-2xl py-5 max-[660px]:py-2 text-white max-md:text-[22px]">
+          Экономия времени и денег
+        </p>
+        <p class="text-2xl text-white max-md:text-[22px]">
+          Грамотное распределение рабочей нагрузки
+        </p>
+        <p class="text-2xl py-5 text-white max-md:text-[22px] max-[660px]:py-1">
+          Построение оптимального сменного рабочего <br />
+          расписания для любого количества сотрудников
+        </p>
+        <button
+          class="btnss py-2 mt-6 max-[660px]:mt-2 px-7 bg-[#54A757] border-none text-white border-2 rounded-[30px] font-semibold hover:text-yellow-300 transition-all delay-[0.1s]">
+          Попробовать бесплатно
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="shifton">
+        <div class="titlee flex justify-center py-10">
+          <div class="title">
+            <h1 class="font-semibold text-3xl">Возможности Shifton</h1>
+          </div>
+        </div>
+        <div
+          class="cards pb-16 flex justify-between px-20 gap-5 max-[1250px]:flex-wrap max-[1250px]:px-28 max-md:px-3 max-[1250px]:justify-center max-[447px]:flex-wrap max-[447px]:justify-center max-[447px]:gap-5 max-[447px]:px-0 max-[447px]:text-center">
+          <div class="card w-[26%] max-[447px]:w-[90%] max-[1250px]:w-[45%] rounded-[20px] bg-[#F9F9F9] px-5 py-2">
+            <img class="py-2 max-[447px]:ml-[90px]" src="./images/Icon4.png" alt="" />
+            <h2 class="text-[20px] text-[#29AAE3] font-semibold text-4xl">
+              Распределяй <br />
+              работу
+            </h2>
+            <h3 class="text-[18px] py-2">Планирование смен</h3>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <button
+              class="btnss py-2 mt-6 bg-[#54A757] px-7 mb-6 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Подробнее
+            </button>
+          </div>
+          <div class="card w-[26%] bg-[#F9F9F9] max-[447px]:w-[90%] max-[1250px]:w-[45%] rounded-[20px] px-5 py-2">
+            <img class="py-2 max-[447px]:ml-[96px]" src="./images/Icon2.png" alt="" />
+            <h2 class="text-[20px] text-[#29AAE3] font-semibold text-4xl">
+              Управляй и <br />
+              контролируй
+            </h2>
+            <h3 class="text-[18px] py-2">Планирование смен</h3>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <button
+              class="btnss py-2 mt-6 bg-[#54A757] px-7 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Подробнее
+            </button>
+          </div>
+          <div class="card w-[26%] bg-[#F9F9F9] max-[447px]:w-[90%] max-[1250px]:w-[45%] rounded-[20px] px-5 py-2">
+            <img class="py-2 max-[447px]:ml-[96px]" src="./images/ico3.png" alt="" />
+            <h2 class="text-[20px] text-[#29AAE3] font-semibold text-4xl">
+              Планируй и <br />
+              Масштабируй
+            </h2>
+            <h3 class="text-[18px] py-2">Планирование смен</h3>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <button
+              class="btnss py-2 mt-6 bg-[#54A757] px-7 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Подробнее
+            </button>
+          </div>
+          <div class="card w-[26%] max-[447px]:w-[90%] max-[1250px]:w-[45%] rounded-[20px] bg-[#F9F9F9] px-5 py-2">
+            <img class="py-2 max-[447px]:ml-[90px]" src="./images/Icon4.png" alt="" />
+            <h2 class="text-[20px] text-[#29AAE3] font-semibold text-4xl">
+              Распределяй <br />
+              работу
+            </h2>
+            <h3 class="text-[18px] py-2">Планирование смен</h3>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <p class="py-2">Настраиваемые шаблоны смен</p>
+            <button
+              class="btnss py-2 mt-6 bg-[#54A757] px-7 mb-6 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Подробнее
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section class="bg-[#F5F6F6]">
+        <div class="titlee flex justify-center py-10">
+          <div class="title">
+            <h1 class="font-semibold text-3xl text-[#29AAE3] max-[447px]:text-center max-md:text-center">
+              Автоматизированное создание онлайн расписаний
+            </h1>
+          </div>
+        </div>
+        <div
+          class="avtoriz flex justify-between px-28 py-10 gap-5 max-[447px]:px-5 max-[447px]:flex-wrap max-[447px]:py-1 max-md:flex-wrap">
+          <div class="left">
+            <p class="py-2 w-[500px] max-[447px]:w-[300px] text-[20px] max-[447px]:text-center max-[447px]:ml-7">
+              Онлайн-система Shifton разработана для оптимизации времени и
+              ресурсов в создании рабочих расписаний сотрудников. Shifton -
+              прекрасное решение для компаний любых сфер деятельности и
+              размеров.
+            </p>
+            <button
+              class="btnss py-2 mt-6 max-[447px]:ml-[50px] max-[447px]:mb-10 bg-[#29AAE3] max-md:ml-20 max-md:mb-5 px-7 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Зарегистирироваться
+            </button>
+          </div>
+          <div class="right">
+            <img class="w-[600px]" src="./images/raspisImg.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="titlee flex justify-center py-10">
+          <div class="title">
+            <h1 class="font-semibold text-3xl text-[#9033F9] max-[447px]:text-center">
+              Оптимизация командной работы
+            </h1>
+          </div>
+        </div>
+        <div
+          class="avtoriz flex justify-between px-28 py-10 max-[447px]:px-5 max-[447px]:flex-wrap max-[447px]:gap-6 max-[992px]:gap-10 max-md:flex-wrap">
+          <div class="right">
+            <img class="w-[600px]" src="./images/raspisImg2.png" alt="" />
+          </div>
+          <div class="left">
+            <p class="py-2 w-[500px] text-[20px] max-[447px]:w-[300px] max-[447px]:text-center max-[447px]:ml-7">
+              Онлайн-система Shifton разработана для оптимизации времени и
+              ресурсов в создании рабочих расписаний сотрудников. Shifton -
+              прекрасное решение для компаний любых сфер деятельности и
+              размеров.
+            </p>
+            <button
+              class="btnss py-2 mt-6 px-7 text-white border-2 rounded-[30px] font-semibold bg-[#9033F9] hover:text-cyan-300 transition-all ml-[80px]">
+              Начать работу
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#F5F6F6] mt-6">
+        <div class="titlee flex justify-center py-10 pt-10">
+          <div class="title">
+            <h1 class="font-semibold text-3xl text-red-500 max-[447px]:text-center">
+              Управление сменами и перерывами
+            </h1>
+          </div>
+        </div>
+        <div
+          class="avtoriz flex justify-around px-28 items-center py-10 max-[447px]:p-1 gap-5 max-[447px]:px-5 max-[447px]:flex-wrap max-md:flex-wrap">
+          <div class="left">
+            <p class="py-2 w-[500px] max-[447px]:w-[300px] text-[20px] max-[447px]:text-center">
+              Онлайн-система Shifton разработана для оптимизации времени и
+              ресурсов в создании рабочих расписаний сотрудников. Shifton -
+              прекрасное решение для компаний любых сфер деятельности и
+              размеров.
+            </p>
+            <button
+              class="btnss py-2 mt-6 max-[447px]:ml-[30px] bg-red-500 px-7 text-white border-2 rounded-[30px] font-semibold hover:text-cyan-300 transition-all">
+              Попробовать бесплатно
+            </button>
+          </div>
+          <div class="right">
+            <img
+              class="w-[500px] h-[590px] max-[447px]:w-[350px] max-[447px]:h-[500px] max-[992px]:min-w-[280px] max-[992px]:min-h-[200px] mt-7 mb-2"
+              src="./images/raspisImg3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="title flex justify-center py-10">
+          <h1 class="font-semibold text-3xl text-black max-[447px]:text-center">
+            Shifton - автоматизированный <br />
+            сервис планирования расписаний
+          </h1>
+        </div>
+
+        <div class="video flex justify-center text-center max-md:px-5">
+          <iframe width="860" height="415" class="max-[447px]:h-[300px]" src="https://www.youtube.com/embed/dK5TMV8HD24" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section>
+        <div class="title flex justify-center pt-16">
+          <h1 class="font-semibold text-3xl px-4 text-center text-black max-[447px]:text-2xl">
+            Остались вопросы? С радостью на них ответим! <br />
+            Пишите в чат или на почту
+            <span class="text-[#29AAE3]"> support@shifton.com</span>
+          </h1>
+        </div>
+        <div class="flex gap-7 py-7 text-5xl pt-10 mb-14 justify-center cocial">
+          <i class="fa-brands fa-instagram text-fuchsia-400"></i>
+          <i class="fa-brands fa-twitter text-zinc-500"></i>
+          <i class="fa-brands fa-facebook text-[#7E74F1]"></i>
+          <i class="fa-brands fa-linkedin text-cyan-500"></i>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#53A8DD] py-10">
+      <div class="links list-none flex justify-center py-5  gap-5 text-[21px] capitalize text-white">
+        <li class="hover:text-cyan-300 transition-all cursor-pointer delay-[0.1s] ease-in-out">
+          главная
+        </li>
+        <li class="hover:text-cyan-300 transition-all cursor-pointer delay-[0.1s] ease-in-out">
+          тарифы
+        </li>
+        <li class="hover:text-cyan-300 transition-all cursor-pointer delay-[0.1s] ease-in-out">
+          возможности
+        </li>
+      </div>
+      <p class="bg-[#C4C4C4] w-[80%] m-auto h-[2px]"></p>
+      <div class="icon flex justify-center items-center py-5">
+        <img src="./images/footeri.png" alt="" />
+        <img class="object-contain h-[42px]" src="./images/footeri2.png" alt="" />
+      </div>
+      <div class="title text-center text-[20px] text-white">
+        Copyright 2017-2021, Shifton. All rights reserved. <br />
+        Privacy Policy | Terms of Use | Сookies
+      </div>
+    </footer>
+  </div>
+</body>
+<!-- js link -->
+<script src="./js/app.js"></script>
+</html>
