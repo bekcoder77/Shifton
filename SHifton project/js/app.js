@@ -4,6 +4,16 @@ const menuBtn = document.querySelector('.menu-btn')
     const btn = document.querySelector('button')
     const header = document.querySelector('.header')
     const linksItems = document.querySelectorAll('.links a')
+    const scrollBtn = document.querySelector('.scrollBtn')
+
+
+      scrollBtn.addEventListener('click',()=>{
+        document.documentElement.scrollTop = 0
+      })
+
+      window.addEventListener('scroll',()=>{
+        scrollBtn.classList.toggle("activ",window.scrollY >200)
+      })
   
     menuBtn.addEventListener('click', () => {
       menuBtn.classList.toggle('active')
